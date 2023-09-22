@@ -1,0 +1,60 @@
+/*Using Universal Selector*/
+* {
+  font-size: large;  
+  background-color: #ffa;
+}
+
+/*Using Element Selector*/
+h1 {
+    text-align: center;
+    background-color: rgb(143, 143, 237);
+}
+
+/*Using Class Selector*/
+.second {
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+}
+
+/*Using Id Selector*/
+#third p{
+   text-decoration: underline;
+}
+
+/*Explaning Selector Specificity*/
+#fourth p{
+  color: blue;
+}
+
+.fouth p{
+  color: #77f;
+}
+
+/* Example for Pseudo-Element */
+.fifth:hover{
+  color: red;
+}
+
+/* Example for Pseudo-element by element */
+.sixth p::first-letter{
+    font-size: 50px;
+    color: #77f;
+}
+
+/* Example for Cascading Stylesheet */
+.seventh h1{
+  color: red;
+}
+
+.seventh h1{
+  color: blue;
+}
+
+/* Example for important tag */
+.eighth p{
+  background-color: #ffa !important;
+}
+
+.eighth p{
+  background-color: rgb(148, 235, 235);
+}
